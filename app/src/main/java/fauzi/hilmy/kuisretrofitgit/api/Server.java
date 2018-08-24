@@ -4,7 +4,7 @@ import fauzi.hilmy.kuisretrofitgit.response.ResponseData;
 import retrofit2.Call;
 import retrofit2.http.GET;
 
-public interface server {
+public interface Server {
     @GET("read_data.php")
     Call<ResponseData> response_read();
 }
